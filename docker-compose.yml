@@ -1,0 +1,6 @@
+services:
+  api:
+    image: abidkhan2/lab06-predict-api:v1
+    container_name: lab06-predict-api
+    ports:
+      - "5000:5000"
